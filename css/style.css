@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,600);
+@font-face {
+  font-family: "Ubuntu";
+  src: url(fonts/Ubuntu-R.ttf) format("truetype");
+}
+body {
+	background: url(../images/bg-pattern04.jpg) fixed repeat-x;//repeat center top;      
+}
+#banner
+{
+	background: url(../images/bg-pattern1.jpg);
+        position: fixed;
+	height:220px;
+	width:100%;
+	top:0px;
+	left:0%;
+ 	color: transparent;
+        border-top-style: none;
+	border-bottom: solid ;
+        border-width: 6px;
+        border-color: #0b3063;
+	//font-family:"myfont";
+        border-bottom-left-radius: 21%;
+        border-bottom-right-radius: 21%;
+        box-shadow: 
+       inset 0 0 2px 1px rgba(255,255,255,0.08), 
+        0 16px 10px -8px rgba(0, 0, 0, 0.9);
+	//background: rgba(0,0,0,0.06);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.2);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+}
+#button
+ {
+  background:transparent;
+}
+#csilogo
+{
+	position:absolute;
+	left:19%;
+	top:0px;
+}
+#csilogo img{
+    border-radius: 300px;
+    margin-top: 8px;
+    width:68%;
+}
+#title
+{
+	position: absolute;
+	background:#573D7D;
+	height:0px;
+	width:10%;
+	top:-25px;
+	left:35%;
+ 	color:white;
+	font-size:1.9em;
+}
+#subtitle
+{
+	position: relative;
+	background:#573D7D;
+	height:0px;
+	width:100%;
+	top:95px;
+	left:34%;
+ 	color:white;
+        //margin-top: -0.9px;
+	font-size:1.6em;
+        font-weight: 500;
+	
+}
+#tabs{
+    background: url(../images/bg-pattern1.jpg);
+    background-repeat: repeat;
+    height: 46px;
+    width: 86%;
+    clear: both;
+    margin: 188.7px auto;
+    padding: 0.25%;
+    //padding-left: 10px;
+    border-radius: 27px;
+    //border-style: groove;
+    border-width: 1px;
+    //border-color: #0b3063;
+    box-shadow: 
+       inset 0 0 2px 1px rgba(255,255,255,0.08), 
+        0 16px 10px -8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);*/
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.2);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+
+    
+}
+ul#tabs li{
+    display: inline-block;
+    width: 12.1%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-left: 0.4%;
+    //margin-top: 0.8%;
+    vertical-align: central;
+}
+ul#tabs a{
+    //display: inline-block;
+    width: 100%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    //margin-top: 0%;
+    //vertical-align: central;
+    color: #fff;
+    font: bold 15px/24px Ubuntu, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul#tabs a:hover{
+    background: url(../images/bg-pattern22.jpg);
+    background-repeat: repeat;
+    //width: 100%;
+    height: 100%;
+    color: #6d6157;
+    text-align: center;
+    margin: 0%;
+    //float: left;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+}
+ul#tabs a.selected{
+    background: url(../images/bg-pattern22.jpg);
+    background-repeat: repeat;
+    //width: 100%;
+    height: 100%;
+    color: #6d6157;
+    text-align: center;
+    margin: 0%;
+    //float: left;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+}
+.window {
+    //box-shadow: black;
+    box-sizing: border-box;
+    width: 80%;
+    //height: 0px;
+    border: #11546e 3px;
+    border-style: solid;
+    padding: 25px;
+    
+    //margin-top: 800px;
+    margin:280px auto 10px;
+    position: inherit;
+    border-radius: 10px;
+    
+    //font-weight:bold ;
+    //font-family: Ubuntu, Helvetica, sans-serif;
+    font:400 22px/34px "Ubuntu", sans-serif;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.2);
+    
+}
+.window p{
+    //margin-top: 600px;
+    //color: #0b3063;
+    color: #0b3063;
+    
+}
+.window h1{
+    font-size: 34px;
+    //color: #0b3063;
+    color: black;
+    text-align: center;
+}
+.window h2{
+    font-size: 25px;
+    //color: #0b3063;
+    color: black;
+    font-weight: 800;
+    
+}
+.window table td{
+    width: 560px;
+    color:#0b3063;
+}
+.window table td.tab1{
+    width: 70%;
+    font:400 22px/34px "Ubuntu", sans-serif;
+}
+
+.window ul,.window li{
+    color: #0b3063;
+}
+.window h3{
+    font-weight: 600;
+}
+div.window.hide { display: none;
+}
