@@ -10,7 +10,7 @@ body {
 {
 	background: url(../images/bg-pattern1.jpg);
         position: fixed;
-	height:220px;
+	height:213px;
 	width:100%;
 	top:0px;
 	left:0%;
@@ -50,15 +50,15 @@ body {
 }
 #ncpcilogo img{
     border-radius: 300px;
-    margin-top: 13px;
-    width:87%;
+    margin-top: 10px;
+    width:83.5%;
     opacity: 0.9;
 }
 
 #csilogo img{
     border-radius: 300px;
     margin-top: 8px;
-    width:68%;
+    width:64%;
     opacity: 0.9;
 }
 #title
@@ -68,18 +68,18 @@ body {
 	height:0px;
 	width:10%;
 	top:-25px;
-	left:26.5%;
+	left:25%;
  	color:white;
 	font-size:180%;
 }
 #subtitle
 {
-	position: relative;
+	position: absolute;
 	background:#573D7D;
 	height:0px;
 	width:100%;
 	top:95px;
-	left:25.5%;
+	left:24%;
  	color:white;
         //margin-top: -0.9px;
 	font-size:152%;
@@ -92,7 +92,7 @@ body {
     height: 46px;
     width: 86%;
     clear: both;
-    margin: 188.7px auto;
+    margin: 181.7px auto;
     padding: 0.25%;
     border-radius: 27px;
     border-width: 1px;
